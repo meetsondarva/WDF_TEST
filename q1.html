@@ -1,0 +1,61 @@
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+   <header>
+      <h1>Image Gallery</h1>
+      <div>
+         <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="nature">Nature</button>
+        <button class="filter-btn" data-category="city">City</button>
+        <button class="filter-btn" data-category="animals">Animals</button>
+      </div>
+   </header>
+    
+    <h1>hello</h1>
+ </body>
+ </html>     -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery with Filters</title>
+  <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+  <div class="gallery-container">
+    <header>
+      <h1>Image Gallery</h1>
+      <div class="filter-controls">
+         <button data-filter="all" class="filter-btn active">All Photo</button>
+         <button data-filter="Animal" class="filter-btn">Animal</button>
+         <button data-filter="City" class="filter-btn">City</button>
+         <button data-filter="Flower" class="filter-btn">Flower</button>
+         <button data-filter="River" class="filter-btn">River</button>
+     </div>
+     
+    </header>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-category="Animal"><img src="animal1.jpg" alt="animal1"></div>
+      <div class="gallery-item" data-category="Animal"><img src="animal2.jpg" alt="animal2 "></div>
+      <div class="gallery-item" data-category="Animal"><img src="animal3.jpg" alt="animal3"></div>
+      <div class="gallery-item" data-category="City"><img src="city1.jpg" alt="city1"></div>
+      <div class="gallery-item" data-category="City"><img src="city2.jpg" alt="city2"></div>
+      <div class="gallery-item" data-category="City"><img src="city3.jpg" alt="city3"></div>
+      <div class="gallery-item" data-category="Flower"><img src="flower1.jpg" alt="flower1"></div>
+      <div class="gallery-item" data-category="Flower"><img src="flower2.jpg" alt="flower2"></div>
+      <div class="gallery-item" data-category="Flower"><img src="flower3.jpg" alt="flower3"></div>
+      <div class="gallery-item" data-category="River"><img src="river1.jpg" alt="river1"></div>
+      <div class="gallery-item" data-category="River"><img src="river2.jpg" alt="river2"></div>
+      <div class="gallery-item" data-category="River"><img src="river3.jpg" alt="river3"></div>
+    </div>
+  </div>
+  <script src="q1.js"></script>
+</body>
+</html>
